@@ -1,0 +1,14 @@
+## kBuild ##
+
+/kbuild-trunk
+
+## kStuff ##
+
+/src/libs/kStuff/kStuff/
+
+## VirtualBox build ##
+
+/AutoConfig.kmk
+/configure.log
+/out/
+*.pyc

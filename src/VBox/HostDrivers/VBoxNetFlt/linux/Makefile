@@ -62,7 +62,7 @@ endif
 override MODULE = vboxnetflt
 OBJS   = \
 	linux/VBoxNetFlt-linux.o \
-	VBoxNetFlt.o \
+	VBoxNetFlt-common.o \
 	SUPR0IdcClient.o \
 	SUPR0IdcClientComponent.o \
 	linux/SUPR0IdcClient-linux.o

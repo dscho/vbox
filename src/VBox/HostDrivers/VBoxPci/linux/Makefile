@@ -62,7 +62,7 @@ endif
 override MODULE = vboxpci
 OBJS   =                          	\
 	linux/VBoxPci-linux.o     	\
-	VBoxPci.o                 	\
+	VBoxPci-common.o               	\
         SUPR0IdcClient.o          	\
         SUPR0IdcClientComponent.o    	\
         linux/SUPR0IdcClient-linux.o

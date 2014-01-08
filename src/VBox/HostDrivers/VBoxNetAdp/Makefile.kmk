@@ -42,18 +42,18 @@ if1of ($(KBUILD_TARGET), solaris darwin linux freebsd)
   	.
   VBoxNetAdp_SOURCES.darwin   = \
   	darwin/VBoxNetAdp-darwin.cpp \
-  	VBoxNetAdp.c
+	VBoxNetAdp-common.c
   VBoxNetAdp_SOURCES.solaris  = \
   	solaris/VBoxNetAdp-solaris.c
   VBoxNetAdp_SOURCES.linux   = \
   	linux/VBoxNetAdp-linux.c \
-  	VBoxNetAdp.c
+	VBoxNetAdp-common.c
   VBoxNetAdp_SOURCES.freebsd   = \
   	freebsd/VBoxNetAdp-freebsd.c \
-  	VBoxNetAdp.c
+	VBoxNetAdp-common.c
   VBoxNetAdp_SOURCES          =
   #VBoxNetAdp_SOURCES          = \
-  #	VBoxNetAdp.c
+  #	VBoxNetAdp-common.c
   VBoxNetAdp_LIBS            += \
   	$(PATH_STAGE_LIB)/SUPR0IdcClient$(VBOX_SUFF_LIB)
  endif

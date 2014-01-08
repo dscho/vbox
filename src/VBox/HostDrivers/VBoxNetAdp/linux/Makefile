@@ -62,7 +62,7 @@ endif
 override MODULE = vboxnetadp
 OBJS   = \
 	linux/VBoxNetAdp-linux.o \
-	VBoxNetAdp.o
+	VBoxNetAdp-common.o
 ifeq ($(BUILD_TARGET_ARCH),x86)
 OBJS += math/gcc/divdi3.o \
 	math/gcc/moddi3.o \
